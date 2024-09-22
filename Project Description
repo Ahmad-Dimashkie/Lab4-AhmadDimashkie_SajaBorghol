@@ -1,0 +1,23 @@
+Project Title: School Management System - Tkinter & PyQt Integration
+Description:
+This project is a comprehensive School Management System built using two different GUI frameworks: Tkinter and PyQt. The goal of the project is to provide a complete system for managing students, instructors, and courses in an educational institution.
+
+Tkinter Interface: Provides a lightweight and easy-to-use interface for handling tasks like adding, editing, deleting, and searching students, instructors, and courses. This part of the system focuses on simplicity and ease of use for users familiar with Tkinter-based applications.
+
+PyQt Interface: Offers a modern and sophisticated GUI for managing similar functionalities. With a more dynamic and visually appealing interface, the PyQt part is designed to enhance user experience through a more polished layout and interaction.
+
+Both interfaces interact with a PostgreSQL database backend, ensuring data consistency and the ability to perform real-time operations on the stored records.
+
+Key Features:
+Student Management: Add, update, delete, and search student records, including name, age, email, and course registration.
+Instructor Management: Manage instructor details such as name, age, email, and the courses they teach.
+Course Management: Add, edit, and remove courses, and assign students and instructors to them.
+Search Functionality: Search for students, instructors, and courses using various filters.
+Database Integration: All operations are backed by a PostgreSQL database to ensure data persistence.
+Backup Feature: The system provides a backup option to save all records in JSON format.
+This project showcases how both Tkinter and PyQt can be integrated into a single cohesive application, with the benefits of each GUI framework complementing the overall functionality. The project also highlights the collaboration of two developers, each working on different aspects (Tkinter and PyQt), merging them into a unified system.
+
+How to Run:
+The application can be run separately with Tkinter and PyQt interfaces.
+Detailed instructions on setup, running the application, and database configuration can be found in the README file.
+This description explains the project’s purpose, key features, and highlights the integration of Tkinter and PyQt for the School Management System.
