@@ -69,18 +69,6 @@ This project uses a branching strategy for collaboration:
 
 Both branches will eventually be merged into the `main` branch after code review and resolving any potential conflicts.
 
-## Merging and Conflict Resolution
-
-To merge branches into `main`:
-1. Open a pull request (PR) from `feature-tkinter` or `feature-pyqt` to `main`.
-2. Review the changes.
-3. If there are any conflicts, resolve them and commit the changes:
-   ```bash
-   git add <resolved-files>
-   git commit -m "Resolve merge conflicts"
-   git push origin main
-   ```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
