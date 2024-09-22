@@ -51,7 +51,7 @@ To run the Tkinter-based school management system:
 1. Navigate to the Tkinter folder in the cloned repository.
 2. Execute the following command after installing the required libraries:
    ```bash
-   python tkinter_school_management.py
+   python Tkinter_with_db.py
    ```
 
 To run the PyQt interface (once added by Saja Borghol):
