@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>school_management_system module &#8212; School Management System  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="operations.html" />
+    <link rel="prev" title="Welcome to School Management System’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-school_management_system">
+<span id="school-management-system-module"></span><h1>school_management_system module<a class="headerlink" href="#module-school_management_system" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">school_management_system.</span></span><span class="sig-name descname"><span class="pre">SchoolManagementSystem</span></span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">QMainWindow</span></code></p>
+<p>A PyQt5-based GUI for managing students, instructors, and courses in a school.</p>
+<p>This class provides a user interface for adding, editing, and deleting students,
+instructors, and courses, as well as registering students in courses and assigning
+instructors to courses.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.create_student_form">
+<span class="sig-name descname"><span class="pre">create_student_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_student_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.create_student_form" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form for adding new students.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.create_instructor_form">
+<span class="sig-name descname"><span class="pre">create_instructor_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_instructor_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.create_instructor_form" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form for adding new instructors.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.create_course_form">
+<span class="sig-name descname"><span class="pre">create_course_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_course_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.create_course_form" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form for adding new courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.create_registration_form">
+<span class="sig-name descname"><span class="pre">create_registration_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_registration_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.create_registration_form" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form for registering students for courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.create_assignment_form">
+<span class="sig-name descname"><span class="pre">create_assignment_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_assignment_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.create_assignment_form" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form for assigning instructors to courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.add_student">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.add_student" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new student to the system.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.add_instructor">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.add_instructor" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new instructor to the system.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.add_course">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.add_course" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new course to the system.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.update_student_dropdown">
+<span class="sig-name descname"><span class="pre">update_student_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_student_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.update_student_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the student dropdown list with available students.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.update_instructor_dropdown">
+<span class="sig-name descname"><span class="pre">update_instructor_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_instructor_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.update_instructor_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the instructor dropdown list with available instructors.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.update_course_dropdown">
+<span class="sig-name descname"><span class="pre">update_course_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_course_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.update_course_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the course dropdown list with available courses.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.update_table">
+<span class="sig-name descname"><span class="pre">update_table</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_table"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.update_table" title="Link to this definition">¶</a></dt>
+<dd><p>Refreshes the table to display the latest student, instructor, and course data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.export_to_csv">
+<span class="sig-name descname"><span class="pre">export_to_csv</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.export_to_csv"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.export_to_csv" title="Link to this definition">¶</a></dt>
+<dd><p>Exports the current records to a CSV file.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.search_records">
+<span class="sig-name descname"><span class="pre">search_records</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.search_records"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.search_records" title="Link to this definition">¶</a></dt>
+<dd><p>Searches for records based on a user query.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.edit_record">
+<span class="sig-name descname"><span class="pre">edit_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.edit_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.edit_record" title="Link to this definition">¶</a></dt>
+<dd><p>Edits the selected record in the table.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.delete_record">
+<span class="sig-name descname"><span class="pre">delete_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.delete_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.delete_record" title="Link to this definition">¶</a></dt>
+<dd><p>Deletes the selected record from the database.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id0">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id0" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new course to the database.</p>
+<p>This method validates the course ID and course name, ensuring that both
+fields are filled correctly. If validation passes, the course is added to the
+database.</p>
+<p>Shows a success message upon successful addition or an error message in
+case of invalid input or database issues.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id1">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id1" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new instructor to the database.</p>
+<p>This method validates the instructor’s name, age, ID, and email, ensuring
+that all fields are filled correctly. It also verifies the email format and
+the instructor’s age as a positive integer. If all validations pass, the instructor
+is added to the database.</p>
+<p>Shows a success message upon successful addition or an error message in
+case of invalid input or database issues.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id2">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.add_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id2" title="Link to this definition">¶</a></dt>
+<dd><p>Adds a new student to the database.</p>
+<p>This method validates the student’s name, age, ID, and email, ensuring
+that all fields are filled correctly. It also verifies the email format and
+the student’s age as a positive integer. If all validations pass, the student
+is added to the database, and the registration is updated.</p>
+<p>Shows a success message upon successful addition or an error message in
+case of invalid input or database issues.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.assign_instructor_to_course">
+<span class="sig-name descname"><span class="pre">assign_instructor_to_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.assign_instructor_to_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.assign_instructor_to_course" title="Link to this definition">¶</a></dt>
+<dd><p>Assigns an instructor to a selected course based on user input.</p>
+<p>This method retrieves the selected instructor and course from the dropdown menus.
+It extracts the course ID and name, fetches the list of instructors and courses
+from the database, and matches the selected instructor and course with their IDs.
+If both the instructor and course are valid, it calls the <cite>assign_instructor</cite>
+function to link the instructor to the course in the database.</p>
+<p>If an invalid selection is made or if there is an error in the process, it displays
+an appropriate warning message to the user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id3">
+<span class="sig-name descname"><span class="pre">create_assignment_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_assignment_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id3" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form layout for assigning an instructor to a course.</p>
+<p>This method sets up a form that allows the user to assign an instructor to a selected course.
+The form includes:
+- A dropdown to select an instructor.
+- A dropdown to select a course.
+- A button to confirm the assignment, which triggers the <cite>assign_instructor_to_course</cite> method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A form layout containing the fields and button for assigning an instructor to a course.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>QFormLayout</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id4">
+<span class="sig-name descname"><span class="pre">create_course_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_course_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id4" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the course form layout.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A form layout containing fields for entering course details.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>QFormLayout</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id5">
+<span class="sig-name descname"><span class="pre">create_instructor_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_instructor_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id5" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the instructor form layout.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A form layout containing fields for entering instructor details.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>QFormLayout</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id6">
+<span class="sig-name descname"><span class="pre">create_registration_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_registration_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id6" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the form layout for registering a student to a course.</p>
+<p>This method sets up a form that allows the user to register a student for a selected course.
+The form includes:
+- A dropdown to select a student.
+- A dropdown to select a course.
+- A button to confirm the registration, which triggers the <cite>register_student_for_course</cite> method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A form layout containing the fields and button for registering a student to a course.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>QFormLayout</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id7">
+<span class="sig-name descname"><span class="pre">create_student_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.create_student_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id7" title="Link to this definition">¶</a></dt>
+<dd><p>Creates the student form layout.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>A form layout containing fields for entering student details.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>QFormLayout</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.delete_course_record_before_update">
+<span class="sig-name descname"><span class="pre">delete_course_record_before_update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">course_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.delete_course_record_before_update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.delete_course_record_before_update" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.delete_instructor_record_before_update">
+<span class="sig-name descname"><span class="pre">delete_instructor_record_before_update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instructor_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.delete_instructor_record_before_update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.delete_instructor_record_before_update" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id8">
+<span class="sig-name descname"><span class="pre">delete_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.delete_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id8" title="Link to this definition">¶</a></dt>
+<dd><p>Deletes the selected record from the database.</p>
+<p>Prompts the user for confirmation before deleting the selected record.
+If confirmed, removes the record from the database and refreshes the
+records table.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.delete_student_record_before_update">
+<span class="sig-name descname"><span class="pre">delete_student_record_before_update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.delete_student_record_before_update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.delete_student_record_before_update" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id9">
+<span class="sig-name descname"><span class="pre">edit_record</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.edit_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id9" title="Link to this definition">¶</a></dt>
+<dd><p>Allows the user to edit the selected record in the table.</p>
+<p>Populates the form with the existing details of the selected record,
+allowing the user to modify the information. Saves the updated record to
+the database upon submission.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id10">
+<span class="sig-name descname"><span class="pre">export_to_csv</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.export_to_csv"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id10" title="Link to this definition">¶</a></dt>
+<dd><p>Exports the records of students, instructors, and courses to a CSV file.</p>
+<p>Prompts the user to select a file location for saving the exported data,
+and writes the student, instructor, and course records to the specified
+CSV file.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.is_valid_email">
+<span class="sig-name descname"><span class="pre">is_valid_email</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.is_valid_email"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.is_valid_email" title="Link to this definition">¶</a></dt>
+<dd><p>Validates the format of an email address using a regular expression.</p>
+<p>This method checks if the provided email matches a standard email format
+using a regular expression pattern. It supports common email formats
+including alphanumeric characters, dots, underscores, and domain names.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>email</strong> (<em>str</em>) – The email address to be validated.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns True if the email matches the valid format, otherwise False.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.register_student_for_course">
+<span class="sig-name descname"><span class="pre">register_student_for_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.register_student_for_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.register_student_for_course" title="Link to this definition">¶</a></dt>
+<dd><p>Registers a selected student for a selected course.</p>
+<p>This method retrieves the selected student and course from the respective dropdowns
+and attempts to register the student for the specified course. It performs validation
+to ensure that valid selections are made, extracts the course ID, and checks for the existence
+of the student and course in the database before proceeding with the registration.</p>
+<p>If the registration is successful, a confirmation message is displayed. In the case of an error
+during the selection or registration process, appropriate warning messages are shown.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id11">
+<span class="sig-name descname"><span class="pre">search_records</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.search_records"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id11" title="Link to this definition">¶</a></dt>
+<dd><p>Searches for records in the database based on the user input and selected criteria.</p>
+<p>Retrieves records of students, instructors, or courses that match the search
+query entered by the user. Updates the records table to display the filtered
+results.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id12">
+<span class="sig-name descname"><span class="pre">update_course_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_course_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id12" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the course dropdown with the latest course names from the database.</p>
+<p>Fetches the current list of courses from the database and populates the
+course dropdown with their names, allowing users to select courses for
+student registration or instructor assignment.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="school_management_system.SchoolManagementSystem.update_course_dropdown_for_instructors">
+<span class="sig-name descname"><span class="pre">update_course_dropdown_for_instructors</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_course_dropdown_for_instructors"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.SchoolManagementSystem.update_course_dropdown_for_instructors" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the course dropdown for instructor assignment.</p>
+<p>This method refreshes the contents of the course dropdown used for assigning
+instructors to courses. It retrieves the list of available courses from the database,
+clears any existing items in the dropdown, and populates it with the updated list.
+Each course is displayed in the format “course_id - course_name” for clarity.</p>
+<p>The method ensures that the dropdown always has a default option “Select Course”
+before adding the list of available courses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id13">
+<span class="sig-name descname"><span class="pre">update_instructor_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_instructor_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id13" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the instructor dropdown with the latest instructor names from the database.</p>
+<p>Fetches the current list of instructors from the database and populates the
+instructor dropdown with their names, allowing users to select instructors
+for assignment or search purposes.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id14">
+<span class="sig-name descname"><span class="pre">update_student_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_student_dropdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id14" title="Link to this definition">¶</a></dt>
+<dd><p>Updates the student dropdown with the latest student names from the database.</p>
+<p>Fetches the current list of students from the database and populates the
+student dropdown with their names, allowing users to select students for
+registration or search purposes.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id15">
+<span class="sig-name descname"><span class="pre">update_table</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#SchoolManagementSystem.update_table"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#id15" title="Link to this definition">¶</a></dt>
+<dd><p>Refreshes the records table to display the latest students, instructors, and courses.</p>
+<p>Fetches data from the database for students, instructors, and courses, and
+updates the table displayed in the user interface. This method ensures that
+the displayed data is up to date.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="school_management_system.main">
+<span class="sig-prename descclassname"><span class="pre">school_management_system.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/school_management_system.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#school_management_system.main" title="Link to this definition">¶</a></dt>
+<dd><p>The main function to run the School Management System PyQt5 application.</p>
+<p>Creates an instance of QApplication and SchoolManagementSystem,
+then starts the application’s event loop.</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">School Management System</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">school_management_system module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#school_management_system.SchoolManagementSystem"><code class="docutils literal notranslate"><span class="pre">SchoolManagementSystem</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#school_management_system.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to School Management System’s documentation!</a></li>
+      <li>Next: <a href="operations.html" title="next chapter">&lt;no title&gt;</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Saja Borghol.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/school_management_system.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
